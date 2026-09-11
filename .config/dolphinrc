@@ -8,6 +8,9 @@ LockPanels=false
 RememberOpenedTabs=false
 Version=202
 
+[IconsMode]
+PreviewSize=48
+
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
