@@ -35,7 +35,7 @@ source "$HOME/.zsh/sd-card.zsh"
 # ------------------------------------------------------------------------------
 alias sc='systemctl'
 alias sct='systemctl-tui'
-alias full-system-upgrade='sudo pacman -Syu && yay && flatpak update'
+alias full-system-upgrade='sudo pacman -Syu && paru && flatpak update'
 alias restart-plasma='systemctl --user restart plasma-plasmashell.service'
 alias nosleep='systemd-inhibit --what=sleep:idle --who="me" --why="manual block" --mode=block sleep infinity &'
 alias nosleep-off='kill $!'
